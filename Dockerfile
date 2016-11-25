@@ -24,4 +24,4 @@ RUN npm config set --global registry http://registry.npmjs.org/ && \
 # Python configuration
 
 RUN pip install -U pip && \
-    pip install setuptools==25.2
+    pip install setuptools==28.8
