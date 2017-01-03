@@ -12,8 +12,8 @@ ENV LC_ALL en_US.UTF-8
 RUN apt-get update && \
   apt-get install --reinstall -y ca-certificates && \
   update-ca-certificates && \
-  curl -sL https://deb.nodesource.com/setup_4.x | bash - && \
-  apt-get install -y nodejs-legacy npm python python-dev python-pip libpq-dev libffi-dev git-all lib32ncurses5-dev
+  curl -sL https://deb.nodesource.com/setup_6.x | bash - && \
+  apt-get install -y nodejs python python-dev python-pip libpq-dev libffi-dev git-all lib32ncurses5-dev
 
 # NPM configuration
 
