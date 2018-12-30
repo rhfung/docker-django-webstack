@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+pip install --upgrade pip==9.0.3FROM ubuntu:16.04
 
 # 3rd party dependencies
 #  * Nodejs
@@ -28,5 +28,5 @@ RUN npm config set --global registry http://registry.npmjs.org/ && \
 
 # Python configuration
 
-RUN pip install -U pip && \
+RUN pip install --upgrade pip==9.0.3 && \
     pip install setuptools==28.8
