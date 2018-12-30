@@ -1,4 +1,4 @@
-pip install --upgrade pip==9.0.3FROM ubuntu:16.04
+FROM ubuntu:16.04
 
 # 3rd party dependencies
 #  * Nodejs
