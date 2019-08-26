@@ -10,7 +10,7 @@ RUN apt-get update && \
   apt-get install --reinstall -y ca-certificates && \
   apt-get install -y curl && \
   update-ca-certificates && \
-  curl -sL https://deb.nodesource.com/setup_6.x | bash - && \
+  curl -sL https://deb.nodesource.com/setup_12.x | bash - && \
   apt-get install -y nodejs build-essential python python-dev python-pip libpq-dev libffi-dev git-all lib32ncurses5-dev locales
 
 # Set language correctly
