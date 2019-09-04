@@ -29,4 +29,4 @@ RUN npm config set --global registry http://registry.npmjs.org/ && \
 # Python configuration
 
 RUN pip install --upgrade pip==9.0.3 && \
-    pip install setuptools==28.8
+    pip install setuptools==41.2.0
